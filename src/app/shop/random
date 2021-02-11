@@ -1,0 +1,23 @@
+<div class="container">
+    <ul>
+        <li><a routerLink="shop">New Arrivals</a></li>
+        <li><a routerLink="shop/price">Price High to Low</a></li>
+        <li><a routerLink="shop">Most Popular</a></li>
+    </ul>
+    <app-new-arrivals></app-new-arrivals>
+</div>
+<router-outlet></router-outlet>
+
+.container ul{
+    display: flex;
+}
+.container ul li{
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0px 15px;
+}
+.container ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}

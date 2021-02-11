@@ -1,0 +1,130 @@
+.navbar-nav{
+    margin-left: 100px;
+}
+.navbar{
+    padding: 25px 20px;
+    background: white;
+    font-weight: bold;
+}
+.nav-link{
+    color: black;
+}
+.nav-item{
+    margin: 0px 15px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    margin-left: auto;
+}
+.login li{
+    list-style-type: none;
+    text-decoration: none;
+    margin:0px 10px;
+}
+.login li a{
+    color: black;
+    font-size: 20px;
+}
+.login input{
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0px;
+    width: 180px;
+}
+.login input:focus{
+    border-color:1px solid transparent;
+    box-shadow: none;
+    outline: none;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    transition: 0.5s;
+}
+
+.active{
+    color: #F81F1F !important;
+}
+
+.cart{
+    height: 100vh;
+    background: white;
+    z-index: 11;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 30%;
+}
+.cart .d-flex{
+    justify-content: space-between;
+    padding: 29px 20px;
+    font-weight: 700;
+}
+.cart hr{
+    margin: 0px;
+}
+.cart p{
+    text-align: center;
+    margin-top: 150px;
+}
+.cart1{
+    position: relative;
+}
+.cart1 span{
+    position: absolute;
+    background: #F81F1F;
+    color: white;
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 0px 6px;
+    right: -15px;
+    top: -2px;
+}
+@media only screen and (max-width: 480px){
+    .navbar-light .navbar-toggler {
+        color: rgba(0,0,0,.55);
+        border-color: transparent;
+    }
+    .navbar-light .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .navbar-nav {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .login{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+        position: absolute;
+        margin-right: 10px;
+        right: 65px;
+        top: 8px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .cart {
+        height: 100vh;
+        background: white;
+        z-index: 11;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        width: 100%;
+    }
+    .navbar {
+        padding: 25px 0px;
+        background: white;
+        font-weight: bold;
+    }
+    .login li a {
+        font-size: 20px;
+        color: #807b7b;
+    }
+    .search{
+        display: none;
+    }
+}

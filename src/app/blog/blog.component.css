@@ -1,0 +1,188 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+p {
+    font-family: "Roboto",sans-serif;
+    color: #777;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin: 50px 0px;
+}
+.blog_right_sidebar .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.blog_right_sidebar .search_widget .input-group button {
+    background: #ff2020;
+    border-left: 0;
+    border: 1px solid #f0e9ff;
+    padding: 6px 15px;
+    border-left: 0;
+    cursor: pointer;
+}
+.blog_right_sidebar .search_widget .input-group button i {
+    color: #fff;
+}
+.blog_item_img {
+    position: relative;
+}
+.blog_item_img .blog_item_date {
+    position: absolute;
+    bottom: -10px;
+    left: 10px;
+    display: block;
+    color: #fff;
+    background-color: #ff2020;
+    padding: 15px 30px ;
+    border-radius: 5px;
+}
+.blog_item_img .blog_item_date h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0;
+    line-height: 1.2;
+}
+.blog_item_img .blog_item_date p {
+    font-size: 18px;
+    margin-bottom: 0;
+    color: #fff;
+}
+.blog_details {
+    padding: 60px 30px 35px 35px;
+    box-shadow: 0px 10px 20px 0px rgb(221 221 221 / 30%);
+}
+.blog_area a:hover, .blog_area a :hover {
+    background: -webkit-linear-gradient(
+131deg
+, #ff2020 0%, #ff2020 99%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    transition: .4s;
+}
+.blog_details h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.blog_details p {
+    margin-bottom: 30px;
+}
+.blog-info-link li {
+    float: left;
+    font-size: 14px;
+}
+.blog-info-link li a {
+    color: #999999;
+}
+.blog-info-link li:nth-child(1):after {
+    content: "|";
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.blog_item {
+    margin-bottom: 50px;
+}
+.blog-pagination {
+    margin-top: 80px;
+}
+.blog_right_sidebar .single_sidebar_widget {
+    background: #fbf9ff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.blog_right_sidebar .widget_title {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.blog_right_sidebar .post_category_widget .cat-list li {
+    border-bottom: 1px solid #f0e9ff;
+    transition: all 0.3s ease 0s;
+    padding-bottom: 12px;
+}
+.blog_right_sidebar .widget_title::after {
+    content: "";
+    display: block;
+    padding-top: 15px;
+    border-bottom: 1px solid #f0e9ff;
+}
+.media {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    margin-bottom: 16px;
+}
+.blog_right_sidebar .popular_post_widget .post_item .media-body {
+    justify-content: center;
+    align-self: center;
+    padding-left: 20px;
+}
+.blog_right_sidebar .popular_post_widget .post_item .media-body p {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 0px;
+}
+.blog_right_sidebar .popular_post_widget .post_item .media-body h3 {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 6px;
+    transition: all 0.3s linear;
+}
+.blog_right_sidebar .tag_cloud_widget ul li a {
+    display: inline-block;
+    border: 1px solid #eeeeee;
+    background: #fff;
+    padding: 4px 20px;
+    margin-bottom: 8px;
+    margin-right: 3px;
+    transition: all 0.3s ease 0s;
+    color: #888888;
+    font-size: 13px;
+}
+.blog_right_sidebar .tag_cloud_widget ul li {
+    display: inline-block;
+}
+.blog_right_sidebar .instagram_feeds .instagram_row {
+    display: flex;
+    margin-right: -6px;
+    margin-left: -6px;
+}
+.blog_right_sidebar .instagram_feeds .instagram_row li {
+    width: 33.33%;
+    float: left;
+    padding-right: 6px;
+    padding-left: 6px;
+    margin-bottom: 15px;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+.button {
+    display: inline-block;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 54px;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #fdcb9e;
+    text-transform: uppercase;
+    background-color: #ff2020;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+}

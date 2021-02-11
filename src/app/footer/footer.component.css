@@ -1,0 +1,27 @@
+.footer{
+    padding: 20px 70px;
+}
+.footer p{
+    color:#888E9A;
+    margin-top: 20px;
+}
+.footer h5{
+    font-weight: bold;
+}
+.footer ul {
+    margin-top: 20px;
+    padding: 0px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin: 10px 0px;
+}
+.footer ul li a{
+    color:#888E9A;
+    text-decoration: none;
+}
+@media only screen and (max-width:480px){
+    .footer {
+        padding: 20px 15px;
+    }
+}
